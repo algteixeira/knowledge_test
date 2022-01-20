@@ -19,5 +19,7 @@ const object = {
         state: 'SP'
     }],
 };
-object.citys.splice(object.citys.findIndex(obj => obj.name === 'São Paulo'), 1);
+object.citys.find(obj => obj.name === 'Rio Grande').name='johnsons';
+console.log(object)
+
 
